@@ -20,8 +20,12 @@ Página de portafolio personal construida con:
 
 portafolio-web/
 ├── index.html
-└── css/
-└── estilos.css
+├── README.md
+├── css/
+│   └── estilos.css
+└── capturas/
+    ├── validacion-w3c.png
+    ├── reporte-WAVE.png
 
 ## Autor
 
