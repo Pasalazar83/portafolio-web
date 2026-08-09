@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pablo Andrés Salazar Salazar — Portafolio | Ingeniería Web I</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <p class="site-header__prompt">pablosalazar.as@academia.umb.edu.co<span class="cursor">_</span></p>
+    <h1 class="site-header__title">Pablo Andrés Salazar Salazar</h1>
+    <p class="site-header__tagline">Construyendo la web, una etiqueta semántica a la vez.</p>
+
+    <nav class="site-nav" aria-label="Navegación principal">
+      <ul>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="layout">
+
+    <section id="sobre-mi" class="panel" aria-labelledby="sobre-mi-titulo">
+      <p class="panel__eyebrow">// 01 — perfil</p>
+      <h2 id="sobre-mi-titulo">Sobre mí</h2>
+      <p>
+        Estudiante de Ingeniería Web I, aprendiendo a construir páginas
+        accesibles y semánticamente correctas con HTML5, y a diseñar
+        layouts responsivos con CSS Flexbox — sin frameworks externos.
+      </p>
+      <ul class="panel__tags">
+        <li>HTML5</li>
+        <li>CSS Flexbox</li>
+        <li>Accesibilidad</li>
+        <li>Diseño responsivo</li>
+      </ul>
+    </section>
+
+    <section id="proyectos" class="panel" aria-labelledby="proyectos-titulo">
+      <p class="panel__eyebrow">// 02 — trabajo</p>
+      <h2 id="proyectos-titulo">Proyectos</h2>
+
+      <article class="proyecto">
+        <h3>Landmarks &amp; ARIA</h3>
+        <p>Práctica de estructura semántica: header, nav, main, section, article y footer.</p>
+      </article>
+
+      <article class="proyecto">
+        <h3>Layout con Flexbox</h3>
+        <p>De una columna en móvil a tres columnas en escritorio, sin floats.</p>
+      </article>
+
+      <article class="proyecto">
+        <h3>Formulario accesible</h3>
+        <p>Campos con label asociado y validación W3C sin errores críticos.</p>
+      </article>
+    </section>
+
+    <section id="contacto" class="panel" aria-labelledby="contacto-titulo">
+      <p class="panel__eyebrow">// 03 — contacto</p>
+      <h2 id="contacto-titulo">Contacto</h2>
+
+      <form class="formulario" action="#" method="post" novalidate>
+        <div class="campo">
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" autocomplete="name" required>
+        </div>
+
+        <div class="campo">
+          <label for="correo">Correo electrónico</label>
+          <input type="email" id="correo" name="correo" autocomplete="email" required>
+        </div>
+
+        <div class="campo">
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+        </div>
+
+        <button type="submit">Enviar mensaje</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Pablo Andres Salazar Salazar — Laboratorio de Ingeniería Web I.</p>
+  </footer>
+
+</body>
+</html>
