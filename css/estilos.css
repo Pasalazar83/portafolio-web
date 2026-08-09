@@ -114,7 +114,7 @@ a { color: var(--accent); }
 
 .panel__eyebrow {
   font-family: var(--font-display);
-  color: var(--accent-dim);
+  color: var(--accent);
   font-size: 0.8rem;
   margin: 0 0 0.5rem;
 }
