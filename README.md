@@ -13,6 +13,8 @@ Página de portafolio personal construida con:
 - ✅ [Validador W3C](https://validator.w3.org): sin errores ni advertencias.
 - ✅ [WAVE](https://wave.webaim.org): 0 errores, AIM Score 10/10.
 
+![Resultado del validador W3C](capturas/validacion-w3c.png)
+
 ## Estructura del proyecto 
 
 portafolio-web/
